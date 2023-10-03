@@ -1,7 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://du1sfxjsvf72q"]
+[gd_scene load_steps=3 format=3 uid="uid://du1sfxjsvf72q"]
 
 [ext_resource type="Script" path="res://scenes/Player.gd" id="1_c6s35"]
-[ext_resource type="PackedScene" uid="uid://d0yw3a7cwc706" path="res://scenes/forms/formI.tscn" id="2_cc84k"]
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_i1ljk"]
 b = Vector2(0, 0)
@@ -13,5 +12,3 @@ script = ExtResource("1_c6s35")
 shape = SubResource("SegmentShape2D_i1ljk")
 
 [node name="Form" type="Node2D" parent="."]
-
-[node name="formL" parent="Form" instance=ExtResource("2_cc84k")]
