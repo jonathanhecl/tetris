@@ -12,6 +12,7 @@ func _input(event):
 		self.position.x += Global.GRID_SIZE
 	
 	if event.is_action_released("ui_accept"):
+		#$Form.rotation_degrees += 90 <
 		#if $Form.rotation == 90:
 		#	$Form.rotate(90)
 		#else:
