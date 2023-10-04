@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://c2xypldormekf"]
+[gd_scene load_steps=3 format=3 uid="uid://c2xypldormekf"]
 
+[ext_resource type="Script" path="res://scenes/forms/formO.gd" id="1_bfcpx"]
 [ext_resource type="PackedScene" uid="uid://dnc4nsyovj6s0" path="res://scenes/block.tscn" id="1_oqguw"]
 
-[node name="formL" type="Node2D"]
+[node name="formL" type="Node2D" groups=["block"]]
+script = ExtResource("1_bfcpx")
 
 [node name="Block" parent="." instance=ExtResource("1_oqguw")]
 

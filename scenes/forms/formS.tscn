@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://bxhlci68kvote"]
+[gd_scene load_steps=3 format=3 uid="uid://bxhlci68kvote"]
 
 [ext_resource type="PackedScene" uid="uid://dnc4nsyovj6s0" path="res://scenes/block.tscn" id="1_13spp"]
+[ext_resource type="Script" path="res://scenes/forms/formS.gd" id="1_tav1n"]
 
-[node name="formL" type="Node2D"]
+[node name="formL" type="Node2D" groups=["block"]]
+script = ExtResource("1_tav1n")
 
 [node name="Block" parent="." instance=ExtResource("1_13spp")]
 position = Vector2(32, 0)
